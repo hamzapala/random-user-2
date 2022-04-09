@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+.App{
+  text-align: center; 
+  background-color:rgb(209, 226, 240);
+  position: relative;
+  height:fit-content;
+  height:100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.clarusway{
+  width:35px;
+  margin:2rem 0 1rem;
+  border-radius:0;
+  border:none;
+  box-shadow:none;
+  cursor:auto;
+  position: relative;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.big-back{
+  height:200px;
+  width:100vw;
+  background-color:rgb(255, 193, 77);
+  position:absolute;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.small-back{
+  height:70px;
+  width:500px;
+  background-color:rgb(209, 226, 240);
+  position:absolute;
 }
-
-.App-link {
-  color: #61dafb;
+.container{
+  margin:auto;
+  background-color:whitesmoke;
+  width:500px;
+  min-height: 300px;
+  position: relative;
+  box-shadow: 3px 5px 5px rgb(192, 192, 192);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profil{
+  margin-top: 1rem;
+  width:70px;
+  border-radius: 50%;
+  border:3px solid white;
+  box-shadow: 5px 5px 5px 5px rgb(209, 207, 207);
+  margin-left:1rem;
+  cursor:auto;
+}
+h2{
+  margin-top: -1rem;
+}
+img{
+  cursor: pointer;
+  width: 30px;
+  border-radius: 50%;
+  border:3px solid white;
+  box-shadow: 5px 5px 5px 5px rgb(209, 207, 207);
+  position:relative;
+}
+.picture-button{
+  display:flex;
+  justify-content: space-evenly;
+  
+}
+button{
+  color:white;
+  padding: .4rem 1.5rem;
+  background-color: purple;
+  border-radius: 5px;
+  transition: color .4s ease-in-out;
+}
+button:hover{
+  cursor: pointer;
+  background-color:rgb(235, 160, 0);
+  color:black;
+  transition: color, background-color .4s ease-in-out;
+}
+.flex-button{
+  display:flex;
+  justify-content: space-around;
+  margin: 2rem;
+}
+.footer{
+  border:1px solid purple;
+  margin:2rem 5rem;
+  border-radius: 2px;
+  color: grey;
+}
+.fdesign{
+  color:rgb(198, 110, 198);
+  font-weight: 600;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fname{
+  font-family:fantasy;
+}
+.footer-image{
+  width:17px;
+  margin: 0 5px -2px;
+  border-radius:0;
+  border:none;
+  box-shadow:none;
+  cursor:auto;
+}
+.table-head{
+  width: 500px;
+  background-color:rgb(235, 160, 0);
 }
